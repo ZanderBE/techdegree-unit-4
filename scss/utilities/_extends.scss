@@ -1,0 +1,81 @@
+//Place holders for reusable rules
+%links {
+  font-family: $font-stack-primary;
+  color: $color-secondary;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+}
+
+%images {
+  @include flexy(flex) {
+
+  }
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(desktop) {
+
+  }
+}
+
+%headlines {
+  font-family: $font-stack-primary;
+
+}
+
+%nav-items {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  @include mq(desktop) {
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+%buttons {
+  border: none;
+  color: $white;
+  font-family: $font-stack-primary;
+  font-weight: $font-weight-medium;
+  font-size: 1em;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 95%;
+  margin: 15px auto 15px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  @include mq(desktop) {
+    margin-left: 40px;
+    margin-right: 40px;
+
+  }
+}
+
+%buttons--grid {
+  border: none;
+  color: $color-text-secondary;
+  font-family: $font-stack-primary;
+  font-weight: $font-weight-medium;
+  font-size: 1em;
+  margin: 10px auto 10px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+  @include mq(desktop) {
+    justify-content: center;
+  }
+}
+
+// Center text
+%centered {
+  text-align: center;
+}
+
+// Center with left aligned-text
+%centered-left {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}

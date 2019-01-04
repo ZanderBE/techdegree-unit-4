@@ -1,0 +1,33 @@
+// Buttons:
+.btn--default {
+  @extend %buttons;
+
+  background-color: $color-secondary;
+
+}
+
+.btn--success {
+  @extend %buttons;
+  background-color: $granny-smith-apple;
+}
+
+.btn--error {
+  @extend %buttons;
+  background-color: $cherry;
+}
+
+.btn--warning {
+  @extend %buttons;
+  background-color: $tangerine;
+}
+
+.btn--info {
+  @extend %buttons;
+  background-color: $violet-purple;
+}
+
+.theme__colors {
+  @extend mq(desktop) {
+
+  }
+}

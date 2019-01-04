@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu::300,400,500,700");
+.link {
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  color: #48e9f9;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.img--logo, .img--frame, .img--avatar {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headline--primary, .headline--secondary {
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+
+.nav__item {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+}
+@media (min-width: 1400px) {
+  .nav__item {
+    margin: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
+  border: none;
+  color: #ffffff;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  text-transform: uppercase;
+  justify-content: center;
+  width: 95%;
+  margin: 15px auto 15px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+}
+@media (min-width: 1400px) {
+  .btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+.grid__col--12.theme__colors, .grid__col--8.theme__colors, .grid__col--7.theme__colors, .grid__col--6.theme__colors, .grid__col--5.theme__colors, .grid__col--4.theme__colors, .grid__col--3.theme__colors {
+  border: none;
+  color: #778899;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  margin: 10px auto 10px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 6px;
+}
+@media (min-width: 1400px) {
+  .grid__col--12.theme__colors, .grid__col--8.theme__colors, .grid__col--7.theme__colors, .grid__col--6.theme__colors, .grid__col--5.theme__colors, .grid__col--4.theme__colors, .grid__col--3.theme__colors {
+    justify-content: center;
+  }
+}
+
+.nav__item {
+  text-align: center;
+}
+
+.form__input, .headline--primary, .headline--secondary, .blockquote, p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--1 {
+    width: 6.5%;
+  }
+
+  .grid__col--2 {
+    width: 15%;
+  }
+
+  .grid__col--3 {
+    width: 23.5%;
+  }
+
+  .grid__col--4 {
+    width: 32%;
+  }
+
+  .grid__col--5 {
+    width: 40.5%;
+  }
+
+  .grid__col--6 {
+    width: 49%;
+  }
+
+  .grid__col--7 {
+    width: 57.5%;
+  }
+
+  .grid__col--8 {
+    width: 66%;
+  }
+
+  .grid__col--9 {
+    width: 74.5%;
+  }
+
+  .grid__col--10 {
+    width: 83%;
+  }
+
+  .grid__col--11 {
+    width: 91.5%;
+  }
+
+  .grid__col--12 {
+    width: 100%;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 100px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 1400px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 100px;
+  }
+}
+
+p {
+  width: 96.5%;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  color: #778899;
+  font-weight: 300;
+}
+@media (min-width: 1400px) {
+  p {
+    font-size: larger;
+    line-height: 1.5;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+.grid__row {
+  margin-bottom: 50px;
+}
+@media (min-width: 1400px) {
+  .grid__row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+}
+
+.grid__col--3 {
+  align-self: center;
+}
+.grid__col--3.theme__colors {
+  background-color: #ce88f2;
+}
+
+.grid__col--4.theme__colors {
+  background-color: #62e2f9;
+}
+@media (min-width: 1400px) {
+  .grid__col--4.btn--default {
+    background-color: red;
+  }
+}
+
+.grid__col--5.theme__colors {
+  background-color: #76c66c;
+}
+
+.grid__col--6.theme__colors {
+  background-color: #1c7897;
+}
+
+.grid__col--7.theme__colors {
+  background-color: #c66c70;
+}
+
+.grid__col--8.theme__colors {
+  background-color: #e68b5c;
+}
+@media (min-width: 1400px) {
+  .grid__col--8 {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.grid__col--12 {
+  margin-top: 50px;
+}
+@media (min-width: 1400px) {
+  .grid__col--12 {
+    display: flex;
+    margin-top: auto;
+    width: 99%;
+  }
+}
+.grid__col--12.theme__colors {
+  background-color: #6af0cf;
+}
+
+.theme__colors {
+  display: flex;
+  padding-left: 5px;
+}
+
+.blockquote {
+  border-left: 5px solid #15efb4;
+  border-radius: 4px;
+  color: #778899;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+  font-style: italic;
+  padding-left: 0.8em;
+  width: 80%;
+}
+@media (min-width: 1400px) {
+  .blockquote {
+    width: 70%;
+    margin-left: 45px;
+  }
+}
+
+.headline--secondary {
+  color: #778899;
+  font-weight: 300;
+  width: 96.5%;
+  margin-top: 80px;
+}
+@media (min-width: 1400px) {
+  .headline--secondary {
+    margin-left: 10px;
+  }
+}
+
+.headline--primary {
+  color: #15efb4;
+  width: 89%;
+}
+
+.nav__item {
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+.nav__item a {
+  text-decoration: none;
+  color: #42454D;
+}
+.nav__item:hover {
+  background-color: #15efb4;
+}
+.nav__item:hover:hover a {
+  color: #ffffff;
+}
+
+.img--avatar {
+  margin-top: 25px;
+}
+@media (min-width: 1400px) {
+  .img--avatar {
+    align-items: center;
+  }
+}
+
+.img--frame {
+  border: 1.2px solid #d3d3d3;
+  padding: 0.8em;
+  width: 96.5%;
+}
+@media (min-width: 1400px) {
+  .img--frame {
+    width: auto;
+  }
+}
+
+.img--logo {
+  margin-bottom: 45px;
+}
+
+.btn--default {
+  background-color: #48e9f9;
+}
+.btn--success {
+  background-color: #46d283;
+}
+
+.btn--error {
+  background-color: #f06668;
+}
+
+.btn--warning {
+  background-color: #ff7518;
+}
+
+.btn--info {
+  background-color: #8957a2;
+}
+
+/*
+[class^="btn--"] {
+  @include mq(desktop) {
+    width: 15%;
+  }
+}
+*/
+@media (min-width: 1400px) {
+  .form .btn--default {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  display: flex;
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 5px solid #15efb4;
+  font-family: "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;
+  padding-left: 0.5em;
+  padding-bottom: 0.7em;
+  margin-bottom: 1.5em;
+  margin-top: 25px;
+  width: 90%;
+}
+
+/*# sourceMappingURL=styles.css.map */

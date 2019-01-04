@@ -1,0 +1,17 @@
+// Navigation:
+.nav__item {
+  @extend %centered;
+  @extend %nav-items;
+  font-family:$font-stack-primary;
+  & a {
+    text-decoration: none;
+    color: $color-text-primary;
+  }
+  &:hover {
+    background-color: $color-primary;
+    &:hover a {
+      color: $white;
+    }
+  }
+  
+}

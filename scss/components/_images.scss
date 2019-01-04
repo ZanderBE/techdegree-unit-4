@@ -1,0 +1,24 @@
+// Image:
+.img--avatar {
+  @extend %images;
+  margin-top: 25px;
+  @include mq(desktop) {
+    align-items: center;
+  }
+}
+
+.img--frame {
+  @extend %images;
+  border: 1.2px solid $grey;
+  padding: .8em;
+  width: 96.5%;
+  @include mq(desktop) {
+    width: auto;
+  }
+}
+
+.img--logo {
+  @extend %images;
+  margin-bottom: 45px;
+
+}

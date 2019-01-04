@@ -1,0 +1,47 @@
+// Typography:
+.container {
+  @include mq(desktop) {
+
+  }
+}
+
+.link {
+  @extend %links;
+}
+
+.blockquote {
+  border-left: 5px solid $color-primary;
+  border-radius: 4px;
+  color: $color-text-secondary;
+  font-family: $font-stack-primary;
+  font-weight: $font-weight-light;
+  font-size: 1.4em;
+  font-style: italic;
+  padding-left: .8em;
+  @extend %centered-left;
+  width: 80%;
+  @include mq(desktop) {
+    width: 70%;
+    margin-left: 45px;
+  }
+}
+
+.headline--secondary {
+  color: $color-text-secondary;
+  @extend %headlines;
+  @extend %centered-left;
+  font-weight: $font-weight-light;
+  width: 96.5%;
+  margin-top: 80px;
+  @include mq(desktop) {
+    margin-left: 10px;
+
+  }
+}
+
+.headline--primary {
+  color: $color-primary;
+  @extend %headlines;
+  @extend %centered-left;
+  width: 89%;
+}

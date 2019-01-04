@@ -1,0 +1,32 @@
+// Forms:
+.form {
+  @include mq(desktop) {
+    .btn--default {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  @extend %centered-left;
+  @include flexy(flex) {
+
+  }
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 5px solid $color-primary;
+  font-family: $font-stack-primary;
+  font-weight: $font-weight-medium;
+  padding-left: .5em;
+  padding-bottom: .7em;
+  margin-bottom: 1.5em;
+  margin-top: 25px;
+  width: 90%;
+}

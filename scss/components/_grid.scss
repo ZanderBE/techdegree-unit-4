@@ -1,0 +1,118 @@
+// Grid:
+.container {
+  width: 80%;
+  margin: auto;
+  @include mq(desktop) {
+    width: 90%;
+    margin: auto;
+
+  }
+
+}
+
+.grid__row {
+  margin-bottom: 50px;
+  @include mq(desktop) {
+    @include flexy(flex, row) {
+    margin-bottom: 0px;
+    }
+  }
+}
+
+.grid__col--2 {
+
+}
+
+.grid__col--3 {
+  align-self: center;
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $lilac-purple;
+  }
+
+}
+
+.grid__col--4 {
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $sky-blue;
+
+  }
+
+  @include mq(desktop) {
+    &.btn--default {
+      background-color: red;
+    }
+
+  }
+
+
+}
+
+.grid__col--5 {
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $spruce-green;
+  }
+}
+
+.grid__col--6 {
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $denim;
+  }
+}
+
+.grid__col--7 {
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $shimmering-blush;
+  }
+}
+
+.grid__col--8 {
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $burnt-orange;
+  }
+  @include mq(desktop) {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.grid__col--9 {
+
+}
+
+.grid__col--10 {
+
+}
+
+.grid__col--11 {
+
+}
+
+.grid__col--12 {
+  margin-top: 50px;
+  @include mq(desktop) {
+    @include flexy(flex) {
+    margin-top: auto;
+    width: 99%;
+    }
+  }
+  &.theme__colors {
+    @extend %buttons--grid;
+    background-color: $seafoam-green;
+  }
+}
+
+.centered {
+
+}
+
+.theme__colors {
+  display: flex;
+  padding-left: 5px;
+
+}

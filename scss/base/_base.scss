@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 100px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(desktop) {
+    @include flexy(flex, row) {
+    }
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 100px;
+  }
+}
+
+p {
+  width: 96.5%;
+  font-family: $font-stack-primary;
+  color: $color-text-secondary;
+  font-weight: $font-weight-light;
+  @extend %centered-left;
+  @include mq(desktop) {
+    font-size: larger;
+    line-height: 1.5;
+  }
+}
